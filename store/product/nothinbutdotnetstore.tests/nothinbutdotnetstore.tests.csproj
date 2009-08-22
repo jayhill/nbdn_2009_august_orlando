@@ -93,6 +93,7 @@
     <Compile Include="web\FrontControllerSpecs.cs" />
     <Compile Include="web\HtmlDisplayEngineSpecs.cs" />
     <Compile Include="web\RequestHandlerSpecs.cs" />
+    <Compile Include="web\RouteTableSpecs.cs" />
     <Compile Include="web\ViewMainDepartmentsSpecs.cs" />
     <Compile Include="web\ViewSubdepartmentsInDepartmentSpecs.cs" />
     <Compile Include="win\CommandExtensionSpecs.cs" />

@@ -6,6 +6,6 @@ namespace nothinbutdotnetstore.web.core
 {
     public interface RouteTable : IEnumerable<RequestCommand>
     {
-        void add(Criteria<FrontControllerRequest> criteria, Func<ApplicationCommand> command_factory); 
+        void add(Criteria<FrontControllerRequest> criteria,Func<ApplicationCommand> command);
     }
 }

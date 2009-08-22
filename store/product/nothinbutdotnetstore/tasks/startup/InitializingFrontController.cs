@@ -23,8 +23,8 @@ namespace nothinbutdotnetstore.tasks.startup
             register<RouteTable>(() => table);
             register<IEnumerable<RequestCommand>>(() => table);
             register<CommandRegistry>(() => new CommandRegistryImplementation(container_instance<IEnumerable<RequestCommand>>()));
-            register<FrontController>(() => new FrontControllerImplementation(container.get().instance_of<CommandRegistry>()));
-            register<DisplayEngine>(() => new HtmlDisplayEngine(container.get().instance_of<ViewRegistry>()));
+            register<FrontController>(() => new FrontControllerImplementation(container_instance<CommandRegistry>()));
+            register<DisplayEngine>(() => new HtmlDisplayEngine(container_instance<ViewRegistry>()));
         }
 
         Dependency container_instance<Dependency>()

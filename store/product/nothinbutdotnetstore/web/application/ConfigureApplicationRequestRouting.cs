@@ -13,8 +13,9 @@ namespace nothinbutdotnetstore.web.application
 
         public void run()
         {
-            IOC.get().instance_of<RouteTable>()
-            routes.add(new BasicRequestCommand(null, IOC.get().instance_of<ViewMainDepartments>()));
+            var routes = IOC.get().instance_of<RouteTable>();
+
+            routes.add(null, IOC.get().instance_of<ViewMainDepartments>());
         }
     }
 }

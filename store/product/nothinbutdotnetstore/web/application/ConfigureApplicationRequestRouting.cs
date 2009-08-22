@@ -15,7 +15,7 @@ namespace nothinbutdotnetstore.web.application
         {
             var routes = IOC.get().instance_of<RouteTable>();
 
-            routes.add(null, IOC.get().instance_of<ViewMainDepartments>());
+            routes.add(null, () => IOC.get().instance_of<ViewMainDepartments>());
         }
     }
 }

@@ -86,6 +86,7 @@
     <Compile Include="utility\conventions\FollowsStartupCommandConvention.cs" />
     <Compile Include="utility\conventions\IsAnApplicationConvention.cs" />
     <Compile Include="utility\empty_test_fixture_for_test_driven.cs" />
+    <Compile Include="web\EnueratorSpikes.cs" />
     <Compile Include="web\FrontControllerRequestSpecs.cs" />
     <Compile Include="utility\ObjectMother.cs" />
     <Compile Include="web\BasicRequestCommandSpecs.cs" />

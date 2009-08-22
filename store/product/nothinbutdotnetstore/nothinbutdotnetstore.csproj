@@ -65,6 +65,7 @@
     <Compile Include="tasks\CatalogTasks.cs" />
     <Compile Include="tasks\StartupCommand.cs" />
     <Compile Include="tasks\StartupCommandFactory.cs" />
+    <Compile Include="tasks\StartupCommandFactoryImplementation.cs" />
     <Compile Include="tasks\startup\dsl\BigUglyComponent.cs" />
     <Compile Include="tasks\startup\InitializeTheContainer.cs" />
     <Compile Include="tasks\startup\InitializeTheServiceLayer.cs" />
@@ -81,6 +82,7 @@
     <Compile Include="web\core\FrontControllerRequestImplementation.cs" />
     <Compile Include="web\core\HtmlDisplayEngine.cs" />
     <Compile Include="web\core\RequestCommandFactory.cs" />
+    <Compile Include="web\core\RequestCommandFactoryImplementation.cs" />
     <Compile Include="web\core\RouteTable.cs" />
     <Compile Include="web\core\RouteTableImplementation.cs" />
     <Compile Include="web\core\TransferAction.cs" />

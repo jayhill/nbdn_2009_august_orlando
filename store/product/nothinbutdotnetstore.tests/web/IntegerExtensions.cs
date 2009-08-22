@@ -1,0 +1,3 @@
+namespace nothinbutdotnetstore.tests.web
+{
+}

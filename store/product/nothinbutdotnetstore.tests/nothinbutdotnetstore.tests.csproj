@@ -79,6 +79,7 @@
     <Compile Include="infrastructure\TextWriterLoggerSpecs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="tasks\ApplicationStartupSpecs.cs" />
+    <Compile Include="tasks\StartupCommandFactorySpecs.cs" />
     <Compile Include="utility\conventions\ConventionExtensions.cs" />
     <Compile Include="utility\conventions\ApplicationConvention.cs" />
     <Compile Include="utility\conventions\EnsureAllApplicationConventionsAreBeingFollowed.cs" />
@@ -86,12 +87,14 @@
     <Compile Include="utility\conventions\FollowsStartupCommandConvention.cs" />
     <Compile Include="utility\conventions\IsAnApplicationConvention.cs" />
     <Compile Include="utility\empty_test_fixture_for_test_driven.cs" />
+    <Compile Include="web\EnueratorSpikes.cs" />
     <Compile Include="web\FrontControllerRequestSpecs.cs" />
     <Compile Include="utility\ObjectMother.cs" />
     <Compile Include="web\BasicRequestCommandSpecs.cs" />
     <Compile Include="web\CommandRegistrySpecs.cs" />
     <Compile Include="web\FrontControllerSpecs.cs" />
     <Compile Include="web\HtmlDisplayEngineSpecs.cs" />
+    <Compile Include="web\IntegerExtensions.cs" />
     <Compile Include="web\RequestHandlerSpecs.cs" />
     <Compile Include="web\RouteTableSpecs.cs" />
     <Compile Include="web\ViewMainDepartmentsSpecs.cs" />

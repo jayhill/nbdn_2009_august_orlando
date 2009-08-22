@@ -6,6 +6,8 @@ namespace nothinbutdotnetstore.tasks
 {
     public interface StartupCommandFactory
     {
-        StartupCommand create_startup_command(Type command_type,IDictionary<Type,Resolver> resolvers);
+        StartupCommand create_startup_command(
+            Type command_type,
+            IDictionary<Type,Resolver> resolvers);
     }
 }

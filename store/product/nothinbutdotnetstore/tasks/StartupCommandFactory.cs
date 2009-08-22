@@ -8,4 +8,5 @@ namespace nothinbutdotnetstore.tasks
     {
         StartupCommand create_startup_command(Type command_type,IDictionary<Type,Resolver> resolvers);
     }
+
 }

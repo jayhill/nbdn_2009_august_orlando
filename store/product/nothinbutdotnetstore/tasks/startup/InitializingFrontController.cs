@@ -18,8 +18,9 @@ namespace nothinbutdotnetstore.tasks.startup
         public void run()
         {
             var container = IOC.get();
-            RouteTable table = null;
 
+            register<RequestCommandFactory>(() => new RequestCommandFactoryImplementation());
+            RouteTable table = new RouteTableImplementation(container_instance<RequestCommandFactory>());
             register<RouteTable>(() => table);
             register<IEnumerable<RequestCommand>>(() => table);
             register<CommandRegistry>(() => new CommandRegistryImplementation(container_instance<IEnumerable<RequestCommand>>()));

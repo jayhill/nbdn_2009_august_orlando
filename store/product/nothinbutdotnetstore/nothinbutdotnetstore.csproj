@@ -49,6 +49,7 @@
   <ItemGroup>
     <Compile Include="documenting\CommandAttribute.cs" />
     <Compile Include="dto\DepartmentItem.cs" />
+    <Compile Include="infrastructure\AnyCriteria.cs" />
     <Compile Include="infrastructure\containers\basic\Resolver.cs" />
     <Compile Include="infrastructure\containers\basic\DelegateResolver.cs" />
     <Compile Include="infrastructure\containers\basic\TypeResolutionException.cs" />
@@ -72,12 +73,14 @@
     <Compile Include="tasks\startup\dsl\StartableBuilder.cs" />
     <Compile Include="tasks\stubs\StubCatalogTasks.cs" />
     <Compile Include="tasks\stubs\StubViewRegistry.cs" />
+    <Compile Include="web\application\ConfigureApplicationRequestRouting.cs" />
     <Compile Include="web\application\ViewMainDepartments.cs" />
     <Compile Include="web\application\ViewSubdepartmentsInDepartment.cs" />
     <Compile Include="web\core\ApplicationCommand.cs" />
     <Compile Include="web\core\BasicRequestCommand.cs" />
     <Compile Include="web\core\FrontControllerRequestImplementation.cs" />
     <Compile Include="web\core\HtmlDisplayEngine.cs" />
+    <Compile Include="web\core\RouteTable.cs" />
     <Compile Include="web\core\TransferAction.cs" />
     <Compile Include="web\core\View.cs" />
     <Compile Include="web\core\ViewFactory.cs" />
@@ -95,7 +98,6 @@
     <Compile Include="web\core\RequestCommand.cs" />
     <Compile Include="web\core\RequestFactory.cs" />
     <Compile Include="web\core\RequestHandler.cs" />
-    <Compile Include="web\core\stubs\StubAnyCriteria.cs" />
     <Compile Include="web\core\stubs\StubRequestFactory.cs" />
     <Compile Include="web\core\ViewRegistry.cs" />
     <Compile Include="win\CommandFactory.cs" />

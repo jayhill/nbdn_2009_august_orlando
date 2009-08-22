@@ -13,13 +13,13 @@ namespace nothinbutdotnetstore.web.core
             (path, type) =>
             BuildManager.CreateInstanceFromVirtualPath(path, type);
 
+        ViewRegistry view_registry;
+
 
         public HtmlDisplayEngine(ViewRegistry view_registry)
         {
             this.view_registry = view_registry;
         }
-
-        ViewRegistry view_registry;
 
         public void display<T>(T item)
         {
